@@ -1,6 +1,6 @@
 {
-  "name": "eth-netstats",
-  "description": "Ethereum Network Intelligence dashboard",
+  "name": "vap-netstats",
+  "description": "Vapory Network Intelligence dashboard",
   "version": "0.0.9",
   "private": true,
   "engines": {
@@ -33,11 +33,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cubedro/eth-netstats.git"
+    "url": "https://github.com/vaporyco/vap-netstats.git"
   },
-  "homepage": "https://github.com/cubedro/eth-netstats",
+  "homepage": "https://github.com/vaporyco/vap-netstats",
   "bugs": {
-    "url": "https://github.com/cubedro/eth-netstats/issues"
+    "url": "https://github.com/vaporyco/vap-netstats/issues"
   },
   "authors": [
     {

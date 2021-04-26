@@ -132,7 +132,7 @@ angular.module('netStatsApp.filters', [])
 		{
 			var tmp = version.split('/');
 
-			tmp[0] = tmp[0].replace('Ethereum(++)', 'Eth');
+			tmp[0] = tmp[0].replace('Vapory(++)', 'Vap');
 
 			if(tmp[0].indexOf('pyethapp') === 0)
 			{
@@ -192,7 +192,7 @@ angular.module('netStatsApp.filters', [])
 		if(price.length < 19)
 			return numberFilter(price.substr(0, price.length - 15)) + " finney";
 
-		return numberFilter(price.substr(0, price.length - 18)) + " ether";
+		return numberFilter(price.substr(0, price.length - 18)) + " vapor";
 	}
 }])
 .filter('gasFilter', function() {
