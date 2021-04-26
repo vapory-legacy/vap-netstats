@@ -4,7 +4,7 @@ Vapory Network Stats
 
 This is a visual interface for tracking vapory network status. It uses WebSockets to receive stats from running nodes and output them through an angular interface. It is the front-end implementation for [vap-net-intelligence-api](https://github.com/cubedro/vap-net-intelligence-api).
 
-![Screenshot](https://raw.githubusercontent.com/cubedro/vap-netstats/master/src/images/screenshot.jpg?v=0.0.6 "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/vaporyco/vap-netstats/master/src/images/screenshot.jpg?v=0.0.6 "Screenshot")
 
 ## Prerequisite
 * node
@@ -16,7 +16,7 @@ Make sure you have node.js and npm installed.
 Clone the repository and install the dependencies
 
 ```bash
-git clone https://github.com/cubedro/vap-netstats
+git clone https://github.com/vaporyco/vap-netstats
 cd vap-netstats
 npm install
 sudo npm install -g grunt-cli
