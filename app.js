@@ -104,7 +104,8 @@ api.on('connection', function (spark)
 
 	spark.on('hello', function (data)
 	{
-		console.info('API', 'CON', 'Hello', data['id']);
+        console.info('API', 'CON', 'Hello', data['id']);
+        console.log('here   !!!!!!!!!!!'+ data.secret);
 
 		if( _.isUndefined(data.secret) || WS_SECRET.indexOf(data.secret) === -1 || banned.indexOf(spark.address.ip) >= 0 )
 		{

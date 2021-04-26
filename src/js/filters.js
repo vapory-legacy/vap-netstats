@@ -493,7 +493,7 @@ angular.module('netStatsApp.filters', [])
 		}
 
 		if(node.info.port !== '') {
-			string = "Port: <b>" + (typeof node.info.port !== 'undefined' ? node.info.port : '30303') + "</b>";
+			string = "Port: <b>" + (typeof node.info.port !== 'undefined' ? node.info.port : '10801') + "</b>";
 
 			tooltip.push(string);
 		}
